@@ -1,10 +1,9 @@
 //your JS code here. If required.
 let btn= document.getElementById("btn")
-btn.addEventListener("click",()=>formValidation(e))
+btn.addEventListener("click",()=>formValidation())
 
-function formValidation(e)
+function formValidation()
 {
-	e.preventDefault()
 	let name=document.getElementById("name").value
 	let email= document.getElementById("email").value
 	let tel=document.getElementById("tel").value
